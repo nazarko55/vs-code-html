@@ -20,7 +20,7 @@ ul.nav-list {
 
 ul.nav-list .nav-item {
   color: white;
-  display: inline-block;
+  float: left;
   margin-left: 16px;
   height: 40px;
 }
