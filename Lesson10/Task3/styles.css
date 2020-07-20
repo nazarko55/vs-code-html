@@ -17,12 +17,12 @@
 
 .navigation {
   margin: 0;
-  display: flex;
-  list-style-type: none;
 }
 
 .navigation__item {
-  margin-right: 16px;
+  margin-right: 14px;
+  float: left;
+  list-style: none;
 }
 
 .content {
@@ -41,6 +41,7 @@
 .news {
   background-color: grey;
   width: 200px;
+  float: left;
 }
 
 .news h2 {
