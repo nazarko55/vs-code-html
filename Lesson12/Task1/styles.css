@@ -1,0 +1,31 @@
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+section {
+  margin: 32px;
+}
+h1 {
+  word-spacing: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  line-height: 28px;
+}
+
+.technology {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  opacity: 0.8;
+}
+.translation {
+  color: gray;
+}
+a {
+  text-decoration: none;
+}
