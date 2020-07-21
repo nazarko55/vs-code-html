@@ -1,13 +1,13 @@
-html {
+body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
 
-section {
+.container {
   margin: 32px;
 }
 
-h1 {
+.header {
   word-spacing: 20px;
   text-align: center;
   text-transform: uppercase;
@@ -17,19 +17,17 @@ p {
   line-height: 28px;
 }
 
-.tecknology {
+.technology {
   letter-spacing: 3px;
   font-size: 24px;
   opacity: 80%;
   text-decoration: underline;
-  font-weight: bold;
 }
 
 a {
   text-decoration: none;
 }
 
-.translate {
-  color: grey;
-  font-style: oblique;
+.translation {
+  color: gray;
 }
