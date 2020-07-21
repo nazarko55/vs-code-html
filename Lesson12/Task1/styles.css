@@ -31,4 +31,5 @@ a {
 
 .translation {
   color: gray;
+  cursor: pointer;
 }
