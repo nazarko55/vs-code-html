@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SVG</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+      .row {
+        display: flex;
+        width: 100%;
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .small-bird {
+        width: 64px;
+        height: 64px;
+      }
+
+      .large-bird {
+        width: 320px;
+        height: 320px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="column">
+        <img
+          class="small-bird"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.png"
+          alt="PNG small"
+        />
+        <img
+          class="large-bird"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.png"
+          alt="PNG large"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="small"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.svg"
+          alt="SVG small"
+        />
+        <img
+          class="large-bird"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.svg"
+          alt="SVG large"
+        />
+      </div>
+    </div>
+  </body>
+</html>
