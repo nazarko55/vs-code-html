@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chess board</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      td {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+      }
+
+      table,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      table {
+        margin: 16px;
+      }
+
+      .first-row td:nth-child(odd) {
+        background-color: black;
+      }
+
+      .second-row td:nth-child(even) {
+        background-color: black;
+      }
+
+      .third-row td:nth-child(odd) {
+        background-color: black;
+      }
+
+      .fourth-row td:nth-child(even) {
+        background-color: black;
+      }
+
+      .fifth-row td:nth-child(odd) {
+        background-color: black;
+      }
+
+      .sixth-row td:nth-child(even) {
+        background-color: black;
+      }
+
+      .seventh-row td:nth-child(odd) {
+        background-color: black;
+      }
+
+      .eighth-row td:nth-child(even) {
+        background-color: black;
+      }
+
+      .top-letters td,
+      .bottom-letters td {
+        border: none;
+        background-color: white;
+      }
+
+      .first-row td:first-child,
+      .first-row td:last-child,
+      .second-row td:first-child,
+      .second-row td:last-child,
+      .third-row td:first-child,
+      .third-row td:last-child,
+      .fourth-row td:first-child,
+      .fourth-row td:last-child,
+      .fifth-row td:first-child,
+      .fifth-row td:last-child,
+      .sixth-row td:first-child,
+      .sixth-row td:last-child,
+      .seventh-row td:first-child,
+      .seventh-row td:last-child,
+      .eighth-row td:first-child,
+      .eighth-row td:last-child {
+        background-color: white;
+        border: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tr class="top-letters">
+        <td></td>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
+        <td>G</td>
+        <td>H</td>
+        <td></td>
+      </tr>
+      <tr class="first-row">
+        <td>8</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>8</td>
+      </tr>
+      <tr class="second-row">
+        <td>7</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>7</td>
+      </tr>
+      <tr class="third-row">
+        <td>6</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>6</td>
+      </tr>
+      <tr class="fourth-row">
+        <td>5</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>5</td>
+      </tr>
+      <tr class="fifth-row">
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>4</td>
+      </tr>
+      <tr class="sixth-row">
+        <td>3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>3</td>
+      </tr>
+      <tr class="seventh-row">
+        <td>2</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2</td>
+      </tr>
+      <tr class="eighth-row">
+        <td>1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+      </tr>
+      <tr class="bottom-letters">
+        <td></td>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
+        <td>G</td>
+        <td>H</td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
