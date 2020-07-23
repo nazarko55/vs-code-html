@@ -1,7 +1,10 @@
+* {
+  box-sizing: border-box;
+}
 .block {
   position: relative;
   left: calc(50vw - 100px);
-  width: 200px;
+  width: 250px;
   height: 100px;
   border-radius: 10px;
   background-color: coral;
