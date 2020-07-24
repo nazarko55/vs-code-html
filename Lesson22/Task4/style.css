@@ -14,7 +14,7 @@ html {
   background-color: #eee;
 }
 
-.header-button {
+.header__button {
   border: none;
   cursor: pointer;
   background-color: #eee;
@@ -59,16 +59,19 @@ html {
     visibility: visible;
   }
 }
+
 @media screen and (min-width: 600px) {
   .header-icon {
     visibility: hidden;
   }
 }
+
 @media screen and (min-width: 100px) {
-  .header-icon {
+  .navigation {
     visibility: hidden;
   }
 }
+
 @media screen and (min-width: 600px) {
   .navigation {
     visibility: visible;
