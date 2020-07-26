@@ -1,19 +1,19 @@
 $sm: 600px;
-$mdl: 900px;
-@mixin small {
-    @media screen and (max-width: $sm-1) {
-        @content;
-    }
-}
-
-@mixin middle {
+$md: 900px;
+@mixin for-medium {
     @media screen and (min-width: $sm) {
         @content;
     }
 }
 
-@mixin large {
-    @media screen and (min-width: $mdl) {
+@mixin for-large {
+    @media screen and (min-width: $md - 1) {
+        @content;
+    }
+}
+
+@mixin for-xlarge {
+    @media screen and (min-width: $md) {
         @content;
     }
 }
